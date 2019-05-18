@@ -17,8 +17,7 @@
     "cordova",
     "macaddress",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
+    "cordova-android"
   ],
   "license": "MIT"
 }

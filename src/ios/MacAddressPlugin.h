@@ -9,7 +9,9 @@
 #import <Cordova/CDV.h>
 
 @interface MacAddressPlugin : CDVPlugin
+@property(strong) NSString* callbackID;
 
 - (void)getMacAddress:(CDVInvokedUrlCommand*)command;
+- (void)getWifiIP:(CDVInvokedUrlCommand*)command;
 
 @end
